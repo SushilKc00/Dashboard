@@ -22,7 +22,7 @@ export default function Adminlayout({ children }: AdminLayoutType) {
         <AdminSideBar />
 
         {/* CHILDREN CONTENT ********/}
-        <div className="pl-4 py-8 flex-[5] w-full overflow-y-auto">
+        <div className="pl-4 py-8 flex-[5] h-[100vh] w-full overflow-y-auto hide-scroll-bar">
           {children}
         </div>
       </div>

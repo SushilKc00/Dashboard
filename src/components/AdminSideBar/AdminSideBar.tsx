@@ -13,7 +13,7 @@ export default function AdminSideBar() {
   const { isAdminSideBarOpen, toggleAdminSideBarOpen } = useMyContext();
   return (
     <div
-      className="md:py-8 py-4 md:px-10 px-5 flex flex-col lg:justify-between lg:flex-1 w-[280px] h-[100vh] lg:static fixed top-[55px] bg-gray-50"
+      className="md:py-8 py-4 md:px-10 px-5 flex flex-col lg:justify-between lg:flex-1 w-[280px] h-[100vh] lg:static fixed top-[55px] bg-gray-50 z-10"
       style={{
         left: isAdminSideBarOpen ? "0" : "-100%",
         transition: "all 0.6s linear",

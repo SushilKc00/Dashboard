@@ -28,7 +28,13 @@ body{
 }
 
 .bg-salmon{
-  overflow: hidden;
+  @media (width<=1024px) {
+    overflow: hidden;
+  }
+}
+
+.hide-scroll-bar{
+  scrollbar-width: none;
 }
 
 

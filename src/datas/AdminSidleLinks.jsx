@@ -31,22 +31,22 @@ const SideLinks = [
       },
       {
         LinkName: "Recent",
-        Src: "/overview",
+        Src: "/dashboard/recent",
         Icon: <GoClock size={18} color="#9e9e9e" />,
       },
       {
         LinkName: "Docs",
-        Src: "/overview",
+        Src: "/dashboard/docs",
         Icon: <IoDocumentTextOutline size={18} color="#9e9e9e" />,
       },
       {
         LinkName: "Photos",
-        Src: "/overview",
+        Src: "/dashboard/photos",
         Icon: <MdOutlinePhotoSizeSelectActual size={18} color="#9e9e9e" />,
       },
       {
         LinkName: "Trash",
-        Src: "/overview",
+        Src: "/dashboard/trash",
         Icon: <FiTrash size={18} color="#9e9e9e" />,
       },
     ],

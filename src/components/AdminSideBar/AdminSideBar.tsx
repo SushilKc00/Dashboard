@@ -2,9 +2,9 @@
 import React from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import SideLinks from "@/datas/AdminSidleLinks";
 import { PiCaretUpDownBold } from "react-icons/pi";
 import { IoAdd } from "react-icons/io5";
-import SideLinks from "./SideLinks";
 import Progress from "../ProgressBar/Progress";
 import { useMyContext } from "@/context/CreateContext";
 

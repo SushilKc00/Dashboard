@@ -24,19 +24,19 @@ const columns: GridColDef[] = [
   {
     field: "lastmodified",
     headerName: "Last Modified",
-    width: 250,
+    width: 320,
   },
   {
     field: "blank",
     headerName: "",
     renderCell: () => {
       return (
-        <div className="flex justify-end items-center">
+        <div className="flex justify-center items-center">
           <HiDotsHorizontal color="blue" />,
         </div>
       );
     },
-    width: 250,
+    width: 200,
   },
 ];
 
